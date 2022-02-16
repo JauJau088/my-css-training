@@ -1,0 +1,31 @@
+.button {
+    margin: 0 0.2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#button1 {
+    color: white;
+    background-color: rgb(204, 0, 0);
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 0.35em;
+}
+
+#button2 {
+    color: rgb(26, 115, 232);
+    background-color: white;
+    padding: 0.85em 1.5em;
+    border-color: rgb(26, 115, 232);
+    border-style: solid;
+    border-width: 0.15em;
+    border-radius: 0.35em;
+}
+
+#button3 {
+    color: white;
+    background-color: rgb(29, 155, 240);
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 2em;
+}
