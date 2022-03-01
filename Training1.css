@@ -2,6 +2,11 @@
     margin: 0 0.2em;
     font-weight: bold;
     cursor: pointer;
+    transition:
+        opacity 0.15s,
+        background-color 0.15s,
+        color 0.15s,
+        box-shadow 0.15s;
 }
 
 #button1 {
@@ -10,6 +15,14 @@
     padding: 1em 1.5em;
     border: none;
     border-radius: 0.35em;
+}
+
+#button1:hover {
+    opacity: 0.8;
+}
+
+#button1:active {
+    opacity: 0.7;
 }
 
 #button2 {
@@ -22,10 +35,28 @@
     border-radius: 0.35em;
 }
 
+#button2:hover {
+    color: white;
+    background-color: rgb(26, 115, 232);
+}
+
+#button2:active {
+    opacity: 0.7;
+}
+
 #button3 {
     color: white;
     background-color: rgb(29, 155, 240);
     padding: 1em 1.5em;
     border: none;
     border-radius: 2em;
+}
+
+#button3:hover {
+    box-shadow: 0.2em 0.3em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+#button3:active {
+    opacity: 0.8;
+    box-shadow: 0.2em 0.3em 0.5em rgba(0, 0, 0, 0.15);
 }
