@@ -8,15 +8,19 @@ p {
 
 }
 
+.video-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 2.5em;
+}
+
 .video {
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 0.3rem;
+    width: 100%;
 }
 
 .thumbnail {
-    width: 300px;
+    width: 100%;
     margin-bottom: 0.25rem;
 }
 
@@ -25,18 +29,16 @@ p {
 }
 
 .info {
-
+    display: grid;
+    grid-template-columns: 50px 1fr;
 }
 
 .info.channel {
-    width: 36px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 0.6em;
+
 }
 
 .info.channel.img {
-    width: 100%;
+    width: 36px;
     border-radius: 50%;
 }
 
@@ -48,7 +50,7 @@ p {
 .info.text.title {
     margin-bottom: 0.5em;
 
-    font-size: 0.95em;
+    font-size: 0.9em;
     font-weight: 500;
     line-height: 1.3em;
 }
