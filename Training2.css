@@ -1,0 +1,27 @@
+.video {
+    width: 18rem;
+    margin: 0.4rem 0;
+
+    font-family: Arial;
+    font-size: 0.845rem;
+    color: #606060;
+    line-height: 1.4em;
+}
+
+.video.title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.video.stats {
+    
+}
+
+.video.author {
+    margin: 1.2rem 0;
+}
+
+.video.description {
+    
+}
