@@ -1,0 +1,47 @@
+.search-bar {
+
+}
+
+.thumbnail {
+    width: 300px;
+    margin-bottom: 0.2rem;
+}
+
+.thumbnail.img {
+    width: 100%;
+}
+
+.video {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0.3rem;
+}
+
+.channel-picture {
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.channel-picture.profile-picture {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+}
+
+.video-info.title {
+    margin-top: 0;
+}
+
+.video-info.author {
+
+}
+
+.video-info.stats {
+
+}
