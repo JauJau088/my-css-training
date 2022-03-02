@@ -8,15 +8,6 @@ p {
 
 }
 
-.thumbnail {
-    width: 300px;
-    margin-bottom: 0.2rem;
-}
-
-.thumbnail.img {
-    width: 100%;
-}
-
 .video {
     width: 300px;
     display: inline-block;
@@ -24,23 +15,37 @@ p {
     margin: 0 0.3rem;
 }
 
-.channel-picture {
+.thumbnail {
+    width: 300px;
+    margin-bottom: 0.25rem;
+}
+
+.thumbnail.img {
+    width: 100%;
+}
+
+.info {
+
+}
+
+.info.channel {
     width: 36px;
     display: inline-block;
     vertical-align: top;
+    margin-right: 0.6em;
 }
 
-.channel-picture.profile-picture {
+.info.channel.img {
     width: 100%;
     border-radius: 50%;
 }
 
-.video-info {
+.info.text {
     display: inline-block;
-    width: 245px;
+    width: 220px;
 }
 
-.video-info.title {
+.info.text.title {
     margin-bottom: 0.5em;
 
     font-size: 0.95em;
@@ -48,8 +53,8 @@ p {
     line-height: 1.3em;
 }
 
-.video-info.author,
-.video-info.stats {
+.info.text.author,
+.info.text.stats {
     font-size: 0.8em;
     color: rgb(96, 96, 96);
 }
