@@ -1,13 +1,4 @@
-p {
-    margin: 0;
-
-    font-family: Roboto, Arial;
-}
-
-.search-bar {
-
-}
-
+/* Video Section */
 .video-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
