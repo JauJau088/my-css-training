@@ -1,10 +1,22 @@
 /* Header Section */
 .header-container {
     height: 3.5em;
+    background-color: white;
+    border-bottom: 1px solid #dedede;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.header-button {
+    cursor: pointer;
 }
 
 .header-left {
@@ -67,9 +79,14 @@
     flex: none;
 }
 
+.header-mid.search-button:hover {
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
 .header-mid.search-button.icon {
     height: 24px;
     width: auto;
+    background-color: transparent;
     margin: auto;
     border: none;
 }
@@ -111,22 +128,22 @@
     background-color: transparent;
     margin: 0;
     padding: 0;
+
+    position: relative;
 }
 
-.header-right.buttons.upload {
+.notif-count {
+    padding: 0.1em 0.45em;
+    background-color: #cc0000;
+    border-radius: 50%;
     
-}
+    font-family: Roboto, Arial;
+    font-size: 0.65rem;
+    color: white;
 
-.header-right.buttons.apps {
-    
-}
-
-.header-right.buttons.notification {
-    
-}
-
-.header-right.buttons.my-channel {
-
+    position: absolute;
+    top: -0.1em;
+    right: -0.3em;
 }
 
 .header-right.my-channel {

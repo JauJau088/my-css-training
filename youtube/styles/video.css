@@ -13,10 +13,29 @@
 .thumbnail {
     width: 100%;
     margin-bottom: 0.25rem;
+
+    position: relative;
 }
 
 .thumbnail.img {
     width: 100%;
+    margin: 0;
+}
+
+.thumbnail-text {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: auto;
+    padding: 0.4em;
+    border-radius: 0.2em;
+
+    font-family: Roboto, Arial;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: white;
+
+    position: absolute;
+    bottom: 1em;
+    right: 0.5em;
 }
 
 .info {
