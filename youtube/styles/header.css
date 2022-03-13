@@ -16,7 +16,33 @@
 }
 
 .header-button {
+    position: relative;
+
     cursor: pointer;
+}
+
+.header-tooltip {
+    position: absolute;
+    bottom: -4.4em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+    width: max-content;
+    padding: 0.9em 0.8em;
+    background-color: rgba(95, 95, 95, 0.95);
+    border-radius: 0.2em;
+
+    font-family: Roboto, Arial;
+    font-size: 0.72rem;
+    color: white;
+
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none; /* disables hover on header-tooltip */
+}
+
+.header-button:hover .header-tooltip{
+    opacity: 1;
 }
 
 .header-left {
